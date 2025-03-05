@@ -56,7 +56,7 @@ flex analizador.l
 
 Compilar el archivo generado:
 
-gcc lex.yy.c -o analizador -lfl
+gcc lex.yy.c -o lexer -L/usr/local/opt/flex/lib -I/usr/local/opt/flex/include -lfl
 
 Ejecutar el analizador
 
